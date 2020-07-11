@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "98725677142",
+    "firebase_url": "https://fir-rolemanagement.firebaseio.com",
+    "project_id": "fir-rolemanagement",
+    "storage_bucket": "fir-rolemanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98725677142:android:248f8a12713c4460f913f7",
+        "android_client_info": {
+          "package_name": "com.mahesh.firebaserolemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98725677142-3l0i9jotvo48vf26i6t98cuc01aln92f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJH4o7c0Eo5biup-mUD5W3cAXsPAw5LUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98725677142-3l0i9jotvo48vf26i6t98cuc01aln92f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

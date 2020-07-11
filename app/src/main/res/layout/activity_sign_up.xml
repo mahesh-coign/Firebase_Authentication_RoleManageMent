@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:id="@+id/et_name_signUp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:hint="Enter user name.."
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_email_signUp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:hint="Enter email.."
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_password_signUp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:hint="Enter password.."
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_mobile_signUp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:hint="Enter phone number.."
+        android:inputType="phone"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spinner_role_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="signUp"
+        android:onClick="onSignUpTapped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="signIn instead?"
+        android:onClick="onSignInTapped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
